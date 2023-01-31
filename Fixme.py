@@ -48,6 +48,9 @@ def threes(n):
 
 
 def small_words(text):
+    xs = text.split(text)
+    foo = len(xs) < 5
+    list(map(foo, xs))
     '''
     Returns a list of all words in the
     input text that are less than 5 characters long.
@@ -67,6 +70,9 @@ def small_words(text):
 
 
 def squares(n):
+    xs = range(0, n)
+    foo = n*n
+    list(map(foo, xs))
     '''
     Returns a list of all square number between 1 and n inclusive.
     Recall that the nth square number is defined to be n*n.
@@ -83,6 +89,8 @@ def squares(n):
 
 
 def lengths(strings):
+    foo = len(strings)
+    list(map(foo, strings))
     '''
     Given a list of strings, returns
     a list of the lengths of the corresponding strings.
